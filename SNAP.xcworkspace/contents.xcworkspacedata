@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:First.storyboard">
+   </FileRef>
+   <FileRef
       location = "group:SNAP.xcodeproj">
    </FileRef>
    <FileRef

@@ -3,13 +3,16 @@ import XCTest
 
 class FirstViewControllerTests: TestCase {
 
-  func test_firstViewController() {
+  override func setUp() {
     recordMode = true
+  }
 
-    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-    let identifier = String(describing: FirstViewController.self)
+  func test_firstViewController() {
+    let storyboard = UIStoryboard(
+      name: "First",
+      bundle: Bundle.init(identifier: "SNAP"))
     let viewContoller = storyboard
-      .instantiateViewController(withIdentifier: identifier)
+      .instantiateViewController(withIdentifier: "FirstViewController")
 
     FBSnapshotVerifyView(viewContoller.view)
   }
