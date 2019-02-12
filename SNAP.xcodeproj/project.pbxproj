@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A97E27FE970ACF260A962CA /* Pods_SNAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1462D7B7405FC04199FD39A /* Pods_SNAP.framework */; };
 		65BFAD5E2212D5F7002E08FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFAD5D2212D5F7002E08FC /* AppDelegate.swift */; };
 		65BFAD602212D5F7002E08FC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFAD5F2212D5F7002E08FC /* FirstViewController.swift */; };
 		65BFAD622212D5F7002E08FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFAD612212D5F7002E08FC /* SecondViewController.swift */; };
@@ -14,6 +15,7 @@
 		65BFAD672212D5F8002E08FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BFAD662212D5F8002E08FC /* Assets.xcassets */; };
 		65BFAD6A2212D5F8002E08FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BFAD682212D5F8002E08FC /* LaunchScreen.storyboard */; };
 		65BFAD752212D5F8002E08FC /* SNAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFAD742212D5F8002E08FC /* SNAPTests.swift */; };
+		6EEA8CF047D123EA716ED380 /* Pods_SNAPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD5B5CDAB5DA15A166FF50E /* Pods_SNAPTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		265B18122BB656E94C654B49 /* Pods-SNAPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAPTests.release.xcconfig"; path = "Target Support Files/Pods-SNAPTests/Pods-SNAPTests.release.xcconfig"; sourceTree = "<group>"; };
+		42F311A82BB85FC0D814A165 /* Pods-SNAPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAPTests.debug.xcconfig"; path = "Target Support Files/Pods-SNAPTests/Pods-SNAPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		65BFAD5A2212D5F7002E08FC /* SNAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BFAD5D2212D5F7002E08FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65BFAD5F2212D5F7002E08FC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,10 @@
 		65BFAD702212D5F8002E08FC /* SNAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BFAD742212D5F8002E08FC /* SNAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNAPTests.swift; sourceTree = "<group>"; };
 		65BFAD762212D5F8002E08FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CD5B5CDAB5DA15A166FF50E /* Pods_SNAPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNAPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D3B92A3C9A0C5C5899FD58 /* Pods-SNAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAP.debug.xcconfig"; path = "Target Support Files/Pods-SNAP/Pods-SNAP.debug.xcconfig"; sourceTree = "<group>"; };
+		A6B88ABB7CC011A32E7B68BD /* Pods-SNAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAP.release.xcconfig"; path = "Target Support Files/Pods-SNAP/Pods-SNAP.release.xcconfig"; sourceTree = "<group>"; };
+		F1462D7B7405FC04199FD39A /* Pods_SNAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A97E27FE970ACF260A962CA /* Pods_SNAP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EEA8CF047D123EA716ED380 /* Pods_SNAPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				65BFAD5C2212D5F7002E08FC /* SNAP */,
 				65BFAD732212D5F8002E08FC /* SNAPTests */,
 				65BFAD5B2212D5F7002E08FC /* Products */,
+				73C6A5307186699652254C11 /* Pods */,
+				9B5F5DA67E3A8394001C3B4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +111,27 @@
 			path = SNAPTests;
 			sourceTree = "<group>";
 		};
+		73C6A5307186699652254C11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99D3B92A3C9A0C5C5899FD58 /* Pods-SNAP.debug.xcconfig */,
+				A6B88ABB7CC011A32E7B68BD /* Pods-SNAP.release.xcconfig */,
+				42F311A82BB85FC0D814A165 /* Pods-SNAPTests.debug.xcconfig */,
+				265B18122BB656E94C654B49 /* Pods-SNAPTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B5F5DA67E3A8394001C3B4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1462D7B7405FC04199FD39A /* Pods_SNAP.framework */,
+				7CD5B5CDAB5DA15A166FF50E /* Pods_SNAPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65BFAD792212D5F8002E08FC /* Build configuration list for PBXNativeTarget "SNAP" */;
 			buildPhases = (
+				E0A58151221C3158D79F2701 /* [CP] Check Pods Manifest.lock */,
 				65BFAD562212D5F7002E08FC /* Sources */,
 				65BFAD572212D5F7002E08FC /* Frameworks */,
 				65BFAD582212D5F7002E08FC /* Resources */,
@@ -123,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65BFAD7C2212D5F8002E08FC /* Build configuration list for PBXNativeTarget "SNAPTests" */;
 			buildPhases = (
+				78709A36CFFF5556E9B3ABB2 /* [CP] Check Pods Manifest.lock */,
 				65BFAD6C2212D5F8002E08FC /* Sources */,
 				65BFAD6D2212D5F8002E08FC /* Frameworks */,
 				65BFAD6E2212D5F8002E08FC /* Resources */,
+				C46DAD670D417A26D6D8E5ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +230,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78709A36CFFF5556E9B3ABB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNAPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C46DAD670D417A26D6D8E5ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SNAPTests/Pods-SNAPTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SNAPTests/Pods-SNAPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A58151221C3158D79F2701 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNAP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65BFAD562212D5F7002E08FC /* Sources */ = {
@@ -362,6 +467,7 @@
 		};
 		65BFAD7A2212D5F8002E08FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D3B92A3C9A0C5C5899FD58 /* Pods-SNAP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +485,7 @@
 		};
 		65BFAD7B2212D5F8002E08FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B88ABB7CC011A32E7B68BD /* Pods-SNAP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +503,7 @@
 		};
 		65BFAD7D2212D5F8002E08FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F311A82BB85FC0D814A165 /* Pods-SNAPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -416,6 +524,7 @@
 		};
 		65BFAD7E2212D5F8002E08FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265B18122BB656E94C654B49 /* Pods-SNAPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
