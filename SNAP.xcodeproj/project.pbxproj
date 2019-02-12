@@ -15,6 +15,8 @@
 		65BFAD672212D5F8002E08FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BFAD662212D5F8002E08FC /* Assets.xcassets */; };
 		65BFAD6A2212D5F8002E08FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BFAD682212D5F8002E08FC /* LaunchScreen.storyboard */; };
 		65BFAD752212D5F8002E08FC /* SNAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFAD742212D5F8002E08FC /* SNAPTests.swift */; };
+		65FF3D312212DA680092C442 /* FirstViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF3D302212DA680092C442 /* FirstViewControllerTests.swift */; };
+		65FF3D332212DB9F0092C442 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF3D322212DB9F0092C442 /* TestCase.swift */; };
 		6EEA8CF047D123EA716ED380 /* Pods_SNAPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD5B5CDAB5DA15A166FF50E /* Pods_SNAPTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,8 @@
 		65BFAD702212D5F8002E08FC /* SNAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BFAD742212D5F8002E08FC /* SNAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNAPTests.swift; sourceTree = "<group>"; };
 		65BFAD762212D5F8002E08FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FF3D302212DA680092C442 /* FirstViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewControllerTests.swift; sourceTree = "<group>"; };
+		65FF3D322212DB9F0092C442 /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
 		7CD5B5CDAB5DA15A166FF50E /* Pods_SNAPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNAPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D3B92A3C9A0C5C5899FD58 /* Pods-SNAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAP.debug.xcconfig"; path = "Target Support Files/Pods-SNAP/Pods-SNAP.debug.xcconfig"; sourceTree = "<group>"; };
 		A6B88ABB7CC011A32E7B68BD /* Pods-SNAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAP.release.xcconfig"; path = "Target Support Files/Pods-SNAP/Pods-SNAP.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				65BFAD662212D5F8002E08FC /* Assets.xcassets */,
 				65BFAD682212D5F8002E08FC /* LaunchScreen.storyboard */,
 				65BFAD6B2212D5F8002E08FC /* Info.plist */,
+				65FF3D302212DA680092C442 /* FirstViewControllerTests.swift */,
+				65FF3D322212DB9F0092C442 /* TestCase.swift */,
 			);
 			path = SNAP;
 			sourceTree = "<group>";
@@ -119,7 +125,6 @@
 				42F311A82BB85FC0D814A165 /* Pods-SNAPTests.debug.xcconfig */,
 				265B18122BB656E94C654B49 /* Pods-SNAPTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -316,6 +321,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65BFAD752212D5F8002E08FC /* SNAPTests.swift in Sources */,
+				65FF3D312212DA680092C442 /* FirstViewControllerTests.swift in Sources */,
+				65FF3D332212DB9F0092C442 /* TestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
