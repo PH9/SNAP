@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5A97E27FE970ACF260A962CA /* Pods_SNAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1462D7B7405FC04199FD39A /* Pods_SNAP.framework */; };
 		65B3E0092212E1060037CDCD /* TrailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3E0082212E1060037CDCD /* TrailController.swift */; };
+		65B61E6D2212E2C80048F980 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B61E6C2212E2C80048F980 /* First.storyboard */; };
 		65BFAD5E2212D5F7002E08FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFAD5D2212D5F7002E08FC /* AppDelegate.swift */; };
 		65BFAD602212D5F7002E08FC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFAD5F2212D5F7002E08FC /* FirstViewController.swift */; };
 		65BFAD622212D5F7002E08FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFAD612212D5F7002E08FC /* SecondViewController.swift */; };
@@ -16,7 +17,6 @@
 		65BFAD672212D5F8002E08FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BFAD662212D5F8002E08FC /* Assets.xcassets */; };
 		65BFAD6A2212D5F8002E08FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65BFAD682212D5F8002E08FC /* LaunchScreen.storyboard */; };
 		65BFAD752212D5F8002E08FC /* SNAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BFAD742212D5F8002E08FC /* SNAPTests.swift */; };
-		65DC0D062212E1EC001C2BAC /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65DC0D052212E1EB001C2BAC /* First.storyboard */; };
 		65FF3D312212DA680092C442 /* FirstViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF3D302212DA680092C442 /* FirstViewControllerTests.swift */; };
 		65FF3D332212DB9F0092C442 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF3D322212DB9F0092C442 /* TestCase.swift */; };
 		6EEA8CF047D123EA716ED380 /* Pods_SNAPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD5B5CDAB5DA15A166FF50E /* Pods_SNAPTests.framework */; };
@@ -36,6 +36,7 @@
 		265B18122BB656E94C654B49 /* Pods-SNAPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAPTests.release.xcconfig"; path = "Target Support Files/Pods-SNAPTests/Pods-SNAPTests.release.xcconfig"; sourceTree = "<group>"; };
 		42F311A82BB85FC0D814A165 /* Pods-SNAPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAPTests.debug.xcconfig"; path = "Target Support Files/Pods-SNAPTests/Pods-SNAPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		65B3E0082212E1060037CDCD /* TrailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailController.swift; sourceTree = "<group>"; };
+		65B61E6C2212E2C80048F980 /* First.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
 		65BFAD5A2212D5F7002E08FC /* SNAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BFAD5D2212D5F7002E08FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65BFAD5F2212D5F7002E08FC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		65BFAD702212D5F8002E08FC /* SNAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BFAD742212D5F8002E08FC /* SNAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNAPTests.swift; sourceTree = "<group>"; };
 		65BFAD762212D5F8002E08FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65DC0D052212E1EB001C2BAC /* First.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = SOURCE_ROOT; };
 		65FF3D302212DA680092C442 /* FirstViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewControllerTests.swift; sourceTree = "<group>"; };
 		65FF3D322212DB9F0092C442 /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
 		7CD5B5CDAB5DA15A166FF50E /* Pods_SNAPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNAPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,7 +99,7 @@
 		65BFAD5C2212D5F7002E08FC /* SNAP */ = {
 			isa = PBXGroup;
 			children = (
-				65DC0D052212E1EB001C2BAC /* First.storyboard */,
+				65B61E6C2212E2C80048F980 /* First.storyboard */,
 				65BFAD5D2212D5F7002E08FC /* AppDelegate.swift */,
 				65BFAD5F2212D5F7002E08FC /* FirstViewController.swift */,
 				65BFAD612212D5F7002E08FC /* SecondViewController.swift */,
@@ -230,7 +230,7 @@
 				65BFAD6A2212D5F8002E08FC /* LaunchScreen.storyboard in Resources */,
 				65BFAD672212D5F8002E08FC /* Assets.xcassets in Resources */,
 				65BFAD652212D5F7002E08FC /* Main.storyboard in Resources */,
-				65DC0D062212E1EC001C2BAC /* First.storyboard in Resources */,
+				65B61E6D2212E2C80048F980 /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +520,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42F311A82BB85FC0D814A165 /* Pods-SNAPTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNAPTests/Info.plist;
@@ -541,7 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 265B18122BB656E94C654B49 /* Pods-SNAPTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNAPTests/Info.plist;
